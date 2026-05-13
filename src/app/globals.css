@@ -8,6 +8,8 @@
   .btn-primary{
     @apply text-white bg-[#244D3F]
   }
-  
+  .bg-primary{
+    @apply bg-[#244D3F]
+  } 
 }
 
