@@ -1,9 +1,9 @@
 import React from 'react';
-import loading from '@/app/loading'
-const page = () => {
+
+const page = async(params) => {
     return (
         <div>
-            
+            frind details
         </div>
     );
 };

@@ -5,11 +5,34 @@
   .btn{
     @apply font-bold
   }
-  .btn-primary{
-    @apply text-white bg-[#244D3F]
+ .btn-primary {
+    background-color: #244D3F !important;
+    border-color: #244D3F !important;
+    color: white !important;
+    box-shadow: 0 4px 6px -1px rgb(36 77 63 / 0.3), 
+                0 2px 4px -2px rgb(36 77 63 / 0.3) !important;
+  }
+  .btn-primary:hover {
+    background-color: #1a3a2f !important;
+    border-color: #1a3a2f !important;
   }
   .bg-primary{
     @apply bg-[#244D3F]
+  }
+  .stat-txt{
+    @apply text-[#244D3F] text-3xl font-semibold text-center
   } 
+  .tag-info{
+    @apply bg-green-300 font-semibold capitalize text-green-800 rounded-2xl py-1 px-5
+  }
+  .tag-green{
+    @apply bg-green-800 text-sm capitalize text-white rounded-2xl py-1 px-5
+  }
+  .tag-red{
+    @apply bg-red-700 text-sm capitalize text-white rounded-2xl py-1 px-5
+  }
+  .tag-yellow{
+    @apply bg-yellow-500 text-sm capitalize text-white rounded-2xl py-1 px-5
+  }
 }
 
